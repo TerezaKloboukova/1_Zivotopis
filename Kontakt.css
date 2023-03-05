@@ -1,0 +1,89 @@
+
+
+body {
+    background-image: linear-gradient(to top, #005bc5 0%, #001449 100%);
+    margin: 0;
+    }
+    
+    
+    p, li {
+        font-family: 'JetBrains Mono', monospace;
+        text-align: justify;
+        margin: 5px 0 20px 20px;
+        margin-inline-start: 100px;
+}
+    /*TEXTY*/
+    .texty {
+        padding: 20px 0;
+        margin: 20px auto;
+        text-align: justify;
+        }
+     /*MENU*/
+     .box {
+        background-color: #00ffaa;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+    .navigace li {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 18px;
+        color: #fbffe3;
+    }
+    .navigace a {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-family: 'JetBrains Mono', monospace; 
+        padding: 10px 20px; 
+    }
+    
+    .navigace a:hover, 
+    .navigace a:focus {
+        color:  rgb(255, 0, 119);
+    }
+    
+    /*NADPISY A PODNADPISY*/
+    h1,h3 {    
+        font-weight: bold 700;
+        color: #fbffe3;  
+        font-family: 'Playfair Display', serif;
+    }
+    
+    h1 {
+        margin: 20px 20px 90px;
+        text-align: center;  
+        font-size: 60px;
+        padding-top: 50px;
+    }
+    h3 {
+        text-align: left;    
+        margin: 10px;
+        margin-inline-start: 100px;
+        font-size: 24px;
+    }
+
+    li {
+        font-size: 16px;
+        font-weight: bold;
+        color: black;
+    }
+    a {
+        color: #00ffaa;
+        text-decoration: none;
+    }
+    
+    /*Patička*/
+    footer p {
+        background: black;
+        color: white;
+        font-size: 14px;
+        margin: 0;
+        padding-left: 15px;
+    }
+    
+    

@@ -1,0 +1,92 @@
+body {
+    background-image: linear-gradient(to top, #005bc5 0%, #001449 100%);
+    margin: 0;
+    }
+    
+p, li {
+        font-family: 'JetBrains Mono', monospace;
+        text-align: justify;
+        margin: 5px;
+        margin-inline-start: 100px;
+    }
+
+/*MENU*/
+   .texty {
+        background-color: #00ffaa;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+    .navigace li {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 18px;
+        color: #fbffe3;
+    }
+    .navigace a {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-family: 'JetBrains Mono', monospace; 
+        padding: 10px 20px; 
+    }
+
+    .navigace a:hover, 
+    .navigace a:focus {
+        color:  rgb(255, 0, 119);
+    }
+    
+/*NADPISY A PODNADPISY*/
+    h1,h2,h3 {  
+        font-weight: bold 700;
+        color: #fbffe3; 
+        margin: 20px;
+    }
+    h1 {
+        text-align: center;  
+        font-size: 60px;
+        font-family: 'Playfair Display', serif; 
+        padding: 50px 0 0;
+        margin: 20px 20px 90px;
+        margin-inline-start: 100px;
+    }
+    h2 {
+        text-align: left;      
+        margin: 40px 20px 10px;
+        font-size: 24px;
+        font-family: 'JetBrains Mono', monospace;
+        color: #00ffaa;
+        margin-inline-start: 100px;
+    }
+    h3 {
+        text-align: left;       
+        font-size: 18px;
+        font-family: 'JetBrains Mono', monospace;
+        margin: 10px 20px 10px;
+        margin-inline-start: 100px;
+    }
+    h4{
+        text-align: left;       
+        font-size: 16px;
+        font-family: 'JetBrains Mono', monospace;
+        margin: 10px 20px 10px;
+        margin-inline-start: 100px;
+    }
+
+    li {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    
+    /*Patička*/
+    footer p {
+            background: black;
+            color: white;
+            font-size: 14px;
+            margin: 40px 0 0 0;
+            padding-left: 15px;
+    }

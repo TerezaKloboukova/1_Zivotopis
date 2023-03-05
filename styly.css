@@ -1,0 +1,104 @@
+
+body {
+    background-image: linear-gradient(to top, #005bc5 0%, #001449 100%);
+    margin: 0;
+    }
+    
+    
+    p {
+            font-family: 'JetBrains Mono', monospace;
+    }
+    
+    
+    /*NADPISY A PODNADPISY*/
+    h1,h2,h3 {
+        text-align: center;
+            font-weight: bold 700;
+            color: #fbffe3; 
+            font-family: 'Playfair Display', serif; 
+            margin: 20px;
+    }
+    
+    h1 {
+            font-size: 60px;
+            padding-top: 50px;
+    }
+    h2 {
+            font-size: 32px;
+    }
+    h2 span {
+            color: #00ffaa;
+    }
+    
+    h3 {
+            font-size: 24px;
+    }
+    
+    
+    /*ÚVODNÍ PŘEDSTAVENÍ*/
+    .container {
+        width: 1000px;
+            padding: 100px 0;
+        margin: 0 auto;
+            text-align: justify;
+            font-size: 21px;
+    }
+    .container p span{
+            font-weight: bold;
+    }
+    
+    
+    /*MŮJ OBRÁZEK*/
+    img {
+            display: block;
+            margin: 0px auto;
+            margin-right: 100px;
+            margin-bottom: 50px; 
+            position: relative;
+            width: 40%;
+            float: right;
+    }
+    
+    /*NAVIGAČNÍ LIŠTA*/
+    
+    .box {
+            color: white;
+            padding-top: 40px;
+            padding-bottom: 20px;
+            margin-top: 50px;
+    }
+    .navigace li {
+            display: block;
+            width: 30%;
+            padding: 10px;
+        background-color: #00ffaa;
+            border-radius: 3%;
+            margin: 50px auto;
+            position: relative;
+            text-align: left;
+            font-size: 21px;
+    }
+    .navigace a {
+            text-decoration: none;
+            color: rgb(255, 0, 119);
+            font-weight: bold;
+            font-family: 'JetBrains Mono', monospace;  
+    }
+    
+    .navigace a:hover, 
+    .navigace a:focus {
+            color: rgb(179, 0, 110);
+    }
+    
+    
+    
+    /*Patička*/
+    footer p {
+            background: black;
+            color: white;
+            font-size: 14px;
+            margin: 0;
+            padding-left: 15px;
+    }
+    
+    
